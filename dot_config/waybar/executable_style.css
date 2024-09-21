@@ -1,0 +1,108 @@
+/* @import "oxocarbon.css"; */
+/* @import "mocha.css"; */
+@import "mocha.css";
+
+* {
+  border: none;
+  font-size: 16px;
+  font-family: "ZedMono Nerd Font";
+  min-height: 25px;
+  font-weight: bold;
+}
+
+window#waybar {
+  background: transparent;
+  margin: 5px;
+}
+
+#custom-logo {
+  padding: 0 10px;
+}
+
+.modules-right {
+  padding: 0 15px;
+  border-radius: 15px 0 0 15px;
+  margin-top: 2px;
+  background: #000000;
+}
+
+.modules-center {
+  padding: 0 15px;
+  margin-top: 4px;
+  border-radius: 15px 15px 15px 15px;
+  background: #000000;
+}
+
+.modules-left {
+  border-radius: 0 15px 15px 0;
+  margin-top: 2px;
+  background: #000000;
+}
+
+#power-profiles-daemon {
+  margin-left: 10px;
+  margin-right: 20px;
+  color: @rosewater;
+}
+
+#network {
+  background: #000000;
+  margin-left: 10px;
+  margin-right: 40px;
+  color: @rosewater;
+}
+
+#temperature {
+  background: #000000;
+  margin-left: 40px;
+  margin-right: 10px;
+  color: @rosewater;
+}
+
+#backlight {
+  background: #000000;
+  margin-left: 40px;
+  margin-right: 10px;
+  color: @rosewater;
+}
+
+#clock {
+  background: #000000;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: @rosewater;
+}
+
+#memory,
+#cpu,
+#battery,
+#wireplumber,
+#bluetooth {
+  background: #000000;
+  margin-left: 10px;
+  margin-right: 20px;
+  color: @rosewater;
+  font-weight: bold;
+}
+
+#battery.charging {
+  color: @green;
+  font-weight: bold;
+}
+
+#tray {
+  padding: 0 10px;
+  margin-right: 10px;
+  color: @rosewater;
+  font-weight: bold;
+  border-radius: 25px 25px 25px 25px;
+}
+
+#custom-notification,
+#custom-power {
+  background: #000000;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: @rosewater;
+  font-weight: bold;
+}
